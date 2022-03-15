@@ -1,0 +1,18 @@
+
+body{
+    /*width: 1000px;*/
+    margin: 0 auto;
+    background-color: #73b6f5bb;
+    }
+    header{
+    display: flex;
+    /*width: 1000px;*/
+    padding: 0 20px 20px 20px;
+    justify-content: space-evenly
+    /*border: 5px solid rgb(73, 72, 72);*/
+    }
+    img {
+        width: 100%;
+        height: auto;
+        align-content: center;
+      }

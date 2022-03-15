@@ -1,0 +1,32 @@
+html {
+    background-color: rgb(231, 227, 227);
+  }
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #f3a435;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(73, 72, 72);
+  }
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    /*margin-right: 100px;*/
+    margin-bottom: 30px;
+    /*margin-left: 200px;*/
+    padding: 20px 0;
+    color: #082744;
+    text-shadow: 1.5px 1.5px 1px black;
+  }
+img {
+    display: block;
+    margin: 0 auto;
+  }
+.img1{
+    /*width: 800px;*/
+    margin: 0 auto;
+    background-color: #f3a435;
+    padding: 0px 0px 0px 0px;
+    border: 3px solid rgb(7, 7, 7);
+}
+
