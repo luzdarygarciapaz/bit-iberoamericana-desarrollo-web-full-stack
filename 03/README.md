@@ -1,2 +1,4 @@
-#Pagina Web Impacto ambiental
-La pagina trata sobre el medio ambiente, el impacto del hombre sobre el mismoy las medidas que se han tomado para minimizar el impacto.
+#Pagina Web GH Ingenieria
+La pagina trata es un recurso para personas que se encuentren en el mundo automotriz, brindandoles conocimiento y resolviendo dudas.
+
+Por: Luz Dary Garcia Paz
