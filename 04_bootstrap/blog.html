@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Blog</title>
+    <script src="https://kit.fontawesome.com/972582a543.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <main role="main" class="principal">
+      <h1><b>BLOG GH INGENIERIA</b></h1>
+
+   
+
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./Index.html"><b>Bienvenidos</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="nav justify-content">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Manuales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Repuestos</a>
+          </li>
+          <li class="nav-item">
+            <a id="private" class="nav-link disabled" href="./exclusivo.html">Exclusivo</a>
+          </li>
+          <li class="nav-item">
+          <!-- Button S -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Iniciar sesión
+          </button>
+          </li>
+        </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <figure>
+      <img src="./Img/gh1.jpeg" class="figure-img img-fluid rounded" alt="GHIngenieria1">
+    </figure>
+    
+    <p> 
+      En este Blog puedes hacer consultas relacionadas con el funcionamiento de tu carro, trataremos de dar respuesta 
+      en el menor tiempo posible, además de dejar el contenido publico para que puedas hacer uso de las consultas de los
+      demas colegas. Muchas gracias por tu apoyo.
+    </p>
+    
+    <h2 id="preguntas_frec">CONSULTAS</h2>
+    <section class="preguntas">
+        <p>
+        <ul>
+            <li><i class="fa-solid fa-circle-question"></i>Subaru XV codigo de Falla P0971, ¿donde consiguen el 
+              solenoide individual?</li>
+            <br>Buenos dias, en amazon.
+            <hr>
+            <li><i class="fa-solid fa-circle-question"></i>Cambio de válvula SCV sistema inyección denso
+              ¿cual es la presión del sistema cuando aceleramos?</li>
+            <br>
+            buenas tardes, en minima (ralenti) debe estar de 28 a 32 Mpa al acelerar debe cambiar en subida la presion 
+            la he visto variar 160Mpa en subida y mas.
+            <hr>
+            <li><i class="fa-solid fa-circle-question"></i>Cambio de válvula SCV sistema inyección denso, Hola, está 
+              explicación me ha sido de mucha ayuda. Tengo una consulta:  cuando se hace limpieza o cambio de la válvula 
+              EGR también se requiere la reconfiguración con el escáner?</li>
+            <br>
+            Hola, normalmente lo que hacemos es tapar la valvula EGR, con un empaque esto hace que el vehiculo no pierda 
+            potencia y evita exceso de humo negro, se reemplaza un empaque por otro sellado solonlos agujeros de los 
+            tornillos, y no se requiere programacion.
+            <hr>
+            <li><i class="fa-solid fa-circle-question"></i>Cambio de válvula SCV sistema inyección denso, Hola una 
+              pregunta,  si solo saco la. Válvula y la limpio y poner la misma ya limpia necesita reprogramacion luego 
+              de instalar la misma?</li>
+            <br>Hola, la recomendación es reprogramar la ecm.
+            <hr>
+            <li><i class="fa-solid fa-circle-question"></i>Cambio de válvula SCV sistema inyección denso, Hola
+               mi nissan navara 2008 se calienta y se apaga el motor y cuando esta fria parte de nuevo, se cambio 
+               radiador y junta de culata, alguna ayuda por favor.       
+              </li>
+            <br>Buenos días, cambiar la bomba de agua algunas veces presenta problemas en las aspas, verificar que 
+            el termostasto y el sensor de temperatura sean originales y esten trabajando adecuadamente.
+            <br><br>
+        </ul>
+        </p>
+    </section>
+    
+     <!-- INGRESO DE EMAIL -->
+     <h2>CONTACTENOS</h2>
+     <form>
+       <div class="mb-3">
+         <div class="mb-3">
+           <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+         </div>
+         <div class="mb-3">
+           <label for="exampleFormControlTextarea1" class="form-label">Consulta/Sugerencia</label>
+           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+         </div>
+       <div class="mb-3 form-check">
+         <input type="checkbox" class="form-check-input" id="exampleCheck1">
+         <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+       </div>
+       <button type="submit" class="btn btn-primary">Enviar</button>
+       <hr>
+       <br>
+     </form>
+     <!--CONTACTO-->
+     <footer>
+       <div>
+             <address class="contacto">
+             <ul>
+                 <li><i class="fa-brands fa-instagram"></i>
+                 <a href="https://instagram.com/ghingenieriataller?utm_medium=copy_link">@ghingenieriatallerautomotriz</a></li>
+                 <li>+57 316 567 7301</li>
+                 <li><i class="fa-brands fa-youtube"></i><a href="https://www.youtube.com/channel/UChGw5L8TGXGUXJQ7Nj6Q61g">GH Ingeniería</a></li>
+                 <li>Derechos reservados 2022</li>
+             </ul>
+           </address>
+         </div>
+       
+     </footer>
+     
+    
+     <!-- Modal -->
+     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+     tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title" id="staticBackdropLabel">ACCEDER</h5>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <form>
+             <div class="mb-3">
+               <label for="inUsername" class="form-label"
+                 >Usuario</label>
+               <input type="email" class="form-control" id="inUsername" aria-describedby="emailHelp"/>
+             </div>
+             <div class="mb-3">
+               <label for="inPassword" class="form-label">Contraseña</label>
+               <input type="password" class="form-control" id="inPassword" />
+             </div>
+             <button id="submitBtn" type="submit" class="btn btn-primary">
+               Entrar
+             </button>
+           </form>
+           <p id="success" class="alert alert-success mt-2 d-none" role="alert"
+           >
+             Puedes acceder a contenido exclusivo
+           </p>
+           <p id="error" class="alert alert-danger mt-2 d-none" role="alert">
+             Los datos ingresados son incorrectos
+           </p>
+         </div>
+         <div class="modal-footer">
+           <!--<button id="closeBtn" type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+             Cerrar
+           </button>-->
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+    <script src="./main.js"></script>
+    </main>  
+  </body>
+</html>

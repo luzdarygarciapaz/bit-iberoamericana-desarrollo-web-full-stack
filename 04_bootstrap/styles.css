@@ -1,0 +1,87 @@
+body{
+background-color: rgb(5, 3, 32);
+margin-left: 9%;
+font-size: 18px;
+    
+}
+h1{
+    font-size: 70px;
+    color: #68120c;
+    align-items: center;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+  }
+
+.principal
+{
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+    
+    }
+
+figure{
+    height: auto;
+    width: 40%;
+    margin-left: 300px;
+    margin-right: auto;
+    padding-top: 30px;
+   
+}
+
+h2{
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align-last: center;
+    color: #610d07c0;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+  }
+
+    .fa-circle-question{
+        color: rgba(167, 23, 23, 0.877);
+        font-size: 30px;
+        margin-right: 20px;
+        margin-top: 20px;
+        align-self: center;
+    }
+
+ul{
+       list-style: none;
+}
+
+.fa-instagram{
+    color: rgba(172, 18, 95, 0.877);
+  }
+.fa-youtube{
+    color: rgba(114, 9, 9, 0.877);
+  }
+  .contacto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Amatic SC', cursive;
+}
+/*imagenes marcas*/
+.marcas{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  padding: auto;
+  align-content: center;
+  margin-bottom: 30px;
+  }
+
+.img_marcas{
+width: 75%;
+height: auto;
+border: 2px solid rgb(5, 5, 5);
+}
+
+figcaption{
+font:italic normal 14px Georgia, "Times New Roman", Times, serif;
+color:#2388c77c;
+margin-left: 90px;
+}
