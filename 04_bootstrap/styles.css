@@ -1,11 +1,11 @@
 body{
 background-color: rgb(5, 3, 32);
 margin-left: 9%;
-font-size: 18px;
-    
+font-size: 14px;
 }
+
 h1{
-    font-size: 70px;
+    font-size: 30px;
     color: #68120c;
     align-items: center;
     text-align: center;
@@ -16,21 +16,20 @@ h1{
 {
     background-color: white;
     width: 90%;
-    padding: 10px;
-    
+    padding: 5px;
+    text-align: justify;
     }
 
 figure{
     height: auto;
-    width: 40%;
-    margin-left: 300px;
+    width: 70%;
+    margin-left: 40px;
     margin-right: auto;
     padding-top: 30px;
-   
-}
+   }
 
 h2{
-    font-size: 36px;
+    font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
     text-align-last: center;
@@ -39,13 +38,13 @@ h2{
     font-weight: bold;
   }
 
-    .fa-circle-question{
+.fa-circle-question{
         color: rgba(167, 23, 23, 0.877);
         font-size: 30px;
         margin-right: 20px;
         margin-top: 20px;
         align-self: center;
-    }
+  }
 
 ul{
        list-style: none;
@@ -57,31 +56,71 @@ ul{
 .fa-youtube{
     color: rgba(114, 9, 9, 0.877);
   }
-  .contacto{
+.contacto{
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 12px;
     font-family: 'Amatic SC', cursive;
 }
 /*imagenes marcas*/
 .marcas{
   display: flex;
   justify-content: space-between;
-  margin-left: 70px;
+  margin-left: 10px;
   padding: auto;
   align-content: center;
-  margin-bottom: 30px;
+  margin-bottom:5px;
   }
 
 .img_marcas{
-width: 75%;
+width: 90%;
 height: auto;
 border: 2px solid rgb(5, 5, 5);
 }
 
 figcaption{
-font:italic normal 14px Georgia, "Times New Roman", Times, serif;
+font:italic normal 10px Georgia, "Times New Roman", Times, serif;
 color:#2388c77c;
-margin-left: 90px;
+margin-left: 20px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 1024px) {
+                figure{
+                  width: 40%;
+                  margin-left: 320px;
+                  margin-right: auto;
+                    }
+              h1{
+                font-size: 70px;
+                  }
+
+              body{
+              font-size: 18px;
+              }
+              h2{
+                  font-size: 36px;
+                      }
+              .principal
+              {
+                padding: 10px;
+              }
+              .contacto{
+                  font-size: 18px;
+                }
+              /*imagenes marcas*/
+              .marcas{
+                margin-left: 70px;
+                margin-bottom: 30px;
+                }
+
+              .img_marcas{
+              width: 75%;
+              }
+
+              figcaption{
+              font:italic normal 14px Georgia, "Times New Roman", Times, serif;
+              margin-left: 90px;
+              }
 }
