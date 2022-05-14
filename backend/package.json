@@ -4,9 +4,10 @@
   "description": "Ejemplo de backend \r clase 19 de abril de 2022\r por luz dary garcia paz",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
-  "author": "",
+  "author": "Luz Dary Garcia Paz",
   "license": "ISC",
   "keywords": [
     "api",
@@ -14,10 +15,11 @@
     "mongo db"
   ],
   "dependencies": {
-    "express": "^4.17.3",
-    "mongoose": "^6.3.0"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.16"
   }
 }
